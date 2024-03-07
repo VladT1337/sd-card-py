@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackList version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<Track version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>101</id>
+<Channel>101</Channel>
+<Enable>true</Enable>
+<Description>trackType=standard,trackType=video,codecType=H.265,resolution=2560x1440,framerate=2.260000 fps,bitrate=1536 kbps</Description>
+<TrackGUID>e32e6863-ea5e-4ee4-997e-085411a04248</TrackGUID>
+<DefaultRecordingMode>CMR</DefaultRecordingMode>
+<LoopEnable>true</LoopEnable>
+<SrcDescriptor>
+<SrcGUID>e32e6863-ea5e-4ee4-997e-085411a04248</SrcGUID>
+<SrcChannel>1</SrcChannel>
+<StreamHint>trackType=standard,trackType=video,codecType=H.265,resolution=2560x1440,framerate=2.260000 fps,bitrate=1536 kbps</StreamHint>
+<SrcDriver>RTSP</SrcDriver>
+<SrcType>H.265</SrcType>
+<SrcUrl>rtsp://localhost/ISAPI/Streaming/channels/101</SrcUrl>
+<SrcType>DESCRIBE, SETUP, PLAY, TEARDOWN</SrcType>
+<SrcLogin>admin</SrcLogin>
+</SrcDescriptor>
+<TrackSchedule>
+<ScheduleBlockList>
+<ScheduleBlock ScheduleActionSize="8" >
+<ScheduleBlockGUID>{00000000-0000-0000-0000-000000000000}</ScheduleBlockGUID>
+<ScheduleBlockType>www.hikvision.com/racm/schedule/ver10</ScheduleBlockType>
+</ScheduleBlock>
+</ScheduleBlockList>
+</TrackSchedule>
+<CustomExtensionList>
+<CustomExtension>
+<CustomExtensionName>www.hikvision.com/RaCM/trackExt/ver10</CustomExtensionName>
+<enableSchedule>true</enableSchedule>
+<PreRecordTimeSeconds>5</PreRecordTimeSeconds>
+<PostRecordTimeSeconds>5</PostRecordTimeSeconds>
+</CustomExtension>
+</CustomExtensionList>
+</Track>
+<Track version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>103</id>
+<Channel>103</Channel>
+<Enable>true</Enable>
+<Description>trackType=standard,trackType=video,codecType=H.265,resolution=2560x1440,framerate=2.260000 fps,bitrate=1536 kbps</Description>
+<TrackGUID>e32e6863-ea5e-4ee4-997e-085411a04248</TrackGUID>
+<DefaultRecordingMode>CMR</DefaultRecordingMode>
+<LoopEnable>false</LoopEnable>
+<SrcDescriptor>
+<SrcGUID>e32e6863-ea5e-4ee4-997e-085411a04248</SrcGUID>
+<SrcChannel>1</SrcChannel>
+<StreamHint>trackType=standard,trackType=video,codecType=H.265,resolution=2560x1440,framerate=2.260000 fps,bitrate=1536 kbps</StreamHint>
+<SrcDriver>RTSP</SrcDriver>
+<SrcType>H.265</SrcType>
+<SrcUrl>rtsp://localhost/ISAPI/Streaming/channels/101</SrcUrl>
+<SrcType>DESCRIBE, SETUP, PLAY, TEARDOWN</SrcType>
+<SrcLogin>admin</SrcLogin>
+</SrcDescriptor>
+<TrackSchedule>
+<ScheduleBlockList>
+<ScheduleBlock ScheduleActionSize="8" >
+<ScheduleBlockGUID>{00000000-0000-0000-0000-000000000000}</ScheduleBlockGUID>
+<ScheduleBlockType>www.hikvision.com/racm/schedule/ver10</ScheduleBlockType>
+</ScheduleBlock>
+</ScheduleBlockList>
+</TrackSchedule>
+<CustomExtensionList>
+<CustomExtension>
+<CustomExtensionName>www.hikvision.com/RaCM/trackExt/ver10</CustomExtensionName>
+<enableSchedule>false</enableSchedule>
+<PreRecordTimeSeconds>5</PreRecordTimeSeconds>
+<PostRecordTimeSeconds>5</PostRecordTimeSeconds>
+</CustomExtension>
+</CustomExtensionList>
+</Track>
+</TrackList>

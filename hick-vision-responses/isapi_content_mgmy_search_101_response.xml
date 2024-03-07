@@ -1,0 +1,26 @@
+Response [200]>
+<?xml version="1.0" encoding="UTF-8"?>
+<CMSearchResult version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<searchID>{C777384AD-66AO-0001-E7C2-1151F04F9085}</searchID>
+<responseStatus>true</responseStatus>
+<responseStatusStrg>OK</responseStatusStrg>
+<numOfMatches>1</numOfMatches>
+<matchList>
+<searchMatchItem>
+<sourceID>{0000000000-0000-0000-0000-000000000000}</sourceID>
+<trackID>101</trackID>
+<timeSpan>
+<startTime>2024-02-22T11:53:05Z</startTime>
+<endTime>2024-02-22T12:01:52Z</endTime>
+</timeSpan>
+<mediaSegmentDescriptor>
+<contentType>video</contentType>
+<codecType>H.264-BP</codecType>
+<playbackURI>rtsp://192.168.225.2/Streaming/tracks/101/?starttime=20240222T115305Z&amp;endtime=20240222T120152Z&amp;name=ch01_00010000000000000&amp;size=37576192</playbackURI>
+</mediaSegmentDescriptor>
+<metadataMatches>
+<metadataDescriptor>recordType.meta.hikvision.com/timing</metadataDescriptor>
+</metadataMatches>
+</searchMatchItem>
+</matchList>
+</CMSearchResult>
